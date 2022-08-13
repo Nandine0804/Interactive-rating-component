@@ -148,8 +148,9 @@ button {
         margin: 2rem 2rem;
     }
     .con {
-        display: flex;
-        gap: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 25px;
         margin: 110px 30px;
         cursor: pointer;
     }
@@ -190,9 +191,10 @@ button {
         font-size: 1.1rem;
     }
     .con {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
         gap: 25px;
-        margin: 110px 24px;
+        margin: 110px 30px;
         cursor: pointer;
     }
 }
@@ -224,9 +226,10 @@ button {
         margin: 2rem 2rem;
     }
     .con {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
         gap: 25px;
-        margin: 110px 19px;
+        margin: 110px 30px;
         cursor: pointer;
     }
 }
@@ -258,9 +261,10 @@ button {
         margin: 2rem 2rem;
     }
     .con {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
         gap: 25px;
-        margin: 110px 17px;
+        margin: 110px 30px;
         cursor: pointer;
     }
 }
@@ -292,9 +296,10 @@ button {
         margin: 2rem 2rem;
     }
     .con {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
         gap: 25px;
-        margin: 110px 20px;
+        margin: 110px 30px;
         cursor: pointer;
     }
 }
@@ -325,6 +330,13 @@ button {
         border-radius: 50%;
         margin: 2rem 2rem;
     }
+    .con {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 25px;
+        margin: 110px 30px;
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -352,5 +364,12 @@ button {
         z-index: 999;
         border-radius: 50%;
         margin: 2rem 2rem;
+    }
+    .con {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 25px;
+        margin: 110px 30px;
+        cursor: pointer;
     }
 }
