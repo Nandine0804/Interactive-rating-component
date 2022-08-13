@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&family=Anton&family=Architects+Daughter&family=Asap+Condensed&family=Caveat:wght@400;500&family=Cinzel:wght@500&family=Cormorant+Garamond:wght@600&family=EB+Garamond&family=Josefin+Sans:wght@200&family=League+Spartan:wght@300&family=Oswald:wght@200&family=Overpass:wght@200&family=PT+Sans+Narrow&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Space+Grotesk&family=Water+Brush&family=Yanone+Kaffeesatz:wght@300&family=Zen+Antique&family=Zen+Kurenaido&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    width: 150px;
+    min-height: 100vh;
+    margin-left: 0px;
+    background: hsl(216, 12%, 8%);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h3 {
+    color: white;
+    white-space: nowrap;
+}
+
+.box1 {
+    margin: 14rem 39rem;
+    border-radius: 50px 50px;
+    width: 23rem;
+    position: absolute;
+    height: 23rem;
+    background: hsl(213, 19%, 18%);
+}
+
+.box1 h3 {
+    margin: 4rem -0.6rem;
+    padding: 40px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.cir {
+    width: 50px;
+    height: 50px;
+    background: #3F4E4F;
+    position: absolute;
+    z-index: 999;
+    border-radius: 50%;
+    margin: 2rem 2rem;
+}
+
+#star {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 999;
+    margin: 46px 45px;
+}
+
+.para {
+    color: hsl(217, 12%, 63%);
+    font-size: 1rem;
+    margin: -90px 30px;
+    font-weight: 400;
+}
+
+.con {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 25px;
+    margin: 110px 30px;
+    cursor: pointer;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    background: hsl(217, 12%, 63%);
+    border-radius: 50%;
+}
+
+.img {
+    background: url('rate.svg');
+}
+
+
+/* .active {
+    background: hsl(25, 97%, 53%);
+} */
+
+.button:hover {
+    background: grey;
+}
+
+.active,
+.button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.con .button i {
+    margin: 20px 15px;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    line-height: 45px;
+    font-size: 1.1rem;
+}
+
+.buttonclick {
+    margin: -80px 40px;
+}
+
+button {
+    width: 290px;
+    height: 35px;
+    margin: -100px 1px;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        width: 150px;
+        min-height: 100vh;
+        margin-left: 0px;
+        background: hsl(216, 12%, 8%);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 14rem 22rem;
+        border-radius: 50px 50px;
+        width: 23rem;
+        position: absolute;
+        height: 23rem;
+        background: hsl(213, 19%, 18%);
+    }
+    .cir {
+        width: 50px;
+        height: 50px;
+        background: #3F4E4F;
+        position: absolute;
+        z-index: 999;
+        border-radius: 50%;
+        margin: 2rem 2rem;
+    }
+    .con {
+        display: flex;
+        gap: 20px;
+        margin: 110px 30px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: 150px;
+        min-height: 100vh;
+        margin-left: 0px;
+        background: hsl(216, 12%, 8%);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 14rem 15rem;
+        border-radius: 50px 50px;
+        width: 23rem;
+        position: absolute;
+        height: 26rem;
+        background: hsl(213, 19%, 18%);
+    }
+    .cir {
+        width: 50px;
+        height: 50px;
+        background: #3F4E4F;
+        position: absolute;
+        z-index: 999;
+        border-radius: 50%;
+        margin: 2rem 2rem;
+    }
+    .con .button i {
+        margin: 20px 15px;
+        text-align: center;
+        align-items: center;
+        color: whitesmoke;
+        line-height: 43px;
+        font-size: 1.1rem;
+    }
+    .con {
+        display: flex;
+        gap: 25px;
+        margin: 110px 24px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:690px) {
+    body {
+        width: 150px;
+        min-height: 100vh;
+        margin-left: 0px;
+        background: hsl(216, 12%, 8%);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 14rem 9rem;
+        border-radius: 50px 50px;
+        width: 23rem;
+        position: absolute;
+        height: 23rem;
+        background: hsl(213, 19%, 18%);
+    }
+    .cir {
+        width: 50px;
+        height: 50px;
+        background: #3F4E4F;
+        position: absolute;
+        z-index: 999;
+        border-radius: 50%;
+        margin: 2rem 2rem;
+    }
+    .con {
+        display: flex;
+        gap: 25px;
+        margin: 110px 19px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        width: 150px;
+        min-height: 100vh;
+        margin-left: 0px;
+        background: hsl(216, 12%, 8%);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 14rem 6rem;
+        border-radius: 50px 50px;
+        width: 23rem;
+        position: absolute;
+        height: 23rem;
+        background: hsl(213, 19%, 18%);
+    }
+    .cir {
+        width: 50px;
+        height: 50px;
+        background: #3F4E4F;
+        position: absolute;
+        z-index: 999;
+        border-radius: 50%;
+        margin: 2rem 2rem;
+    }
+    .con {
+        display: flex;
+        gap: 25px;
+        margin: 110px 17px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body {
+        width: 150px;
+        min-height: 100vh;
+        margin-left: 0px;
+        background: hsl(216, 12%, 8%);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 8rem 4rem;
+        border-radius: 50px 50px;
+        width: 23rem;
+        position: absolute;
+        height: 23rem;
+        background: hsl(213, 19%, 18%);
+    }
+    .cir {
+        width: 50px;
+        height: 50px;
+        background: #3F4E4F;
+        position: absolute;
+        z-index: 999;
+        border-radius: 50%;
+        margin: 2rem 2rem;
+    }
+    .con {
+        display: flex;
+        gap: 25px;
+        margin: 110px 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        width: 150px;
+        min-height: 100vh;
+        margin-left: 0px;
+        background: hsl(216, 12%, 8%);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 14rem 2rem;
+        border-radius: 50px 50px;
+        width: 23rem;
+        position: absolute;
+        height: 23rem;
+        background: hsl(213, 19%, 18%);
+    }
+    .cir {
+        width: 50px;
+        height: 50px;
+        background: #3F4E4F;
+        position: absolute;
+        z-index: 999;
+        border-radius: 50%;
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    body {
+        width: 150px;
+        min-height: 100vh;
+        margin-left: 0px;
+        background: hsl(216, 12%, 8%);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .box1 {
+        margin: 7rem 1rem;
+        border-radius: 50px 50px;
+        width: 23rem;
+        position: absolute;
+        height: 23rem;
+        background: hsl(213, 19%, 18%);
+    }
+    .cir {
+        width: 50px;
+        height: 50px;
+        background: #3F4E4F;
+        position: absolute;
+        z-index: 999;
+        border-radius: 50%;
+        margin: 2rem 2rem;
+    }
+}
